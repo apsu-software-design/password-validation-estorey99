@@ -12,6 +12,7 @@ if(pass==":q")
 else 
   callback(pass);
    })
+//callback function
  var callback= function(pass){
   var valid=validatePassword(pass)
   if(valid)
